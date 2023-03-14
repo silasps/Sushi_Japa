@@ -17,7 +17,7 @@ const Menu = () => {
         <ul>
           <li onClick={() => navigate('/cart')}>
             <FaCartPlus color="#fff" />
-            {` ${cart.length}`} items
+            {` ${cart.length}`} items.
           </li>
         </ul>
       </div>
