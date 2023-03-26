@@ -33,7 +33,7 @@ const Home = () => {
   return (
     <div>
       <div className="main-container">
-        <div className="products-list">
+        <div className="products-list" data-testid="products-list">
           {products.map((product) => (
             <ProductCard product={product}
               onClick={() => handleNavigateToDetails(product)}
